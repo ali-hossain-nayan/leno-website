@@ -4,352 +4,342 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet"
+    />
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="icon" href="./images/favicon.png" />
+
     <title>Leno App | Health & Productivity</title>
 </head>
 
 <body>
+
     <navbar class="navbar">
         <div class="navbar__container container">
+
             <div class="navbar__logo">
-                <img src="./images/logo.svg" alt="Leno" />
-            </div>
-            <div class="navbar__menu">
-                <ul class="navbar__menu-list">
-                    <li class="navbar__menu-item">
-                        <a href="index.html" class="navbar__menu-link">Home</a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="index.html#features" class="navbar__menu-link">Features</a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="index.html#preview" class="navbar__menu-link">Preview</a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="index.html#details" class="navbar__menu-link">Details</a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="index.html#download" class="navbar__menu-link">Download</a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="#" class="navbar__menu-link--primary">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="#" class="navbar__menu-link--primary">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </li>
-                </ul>
+                <img src="./images/logo.svg" alt="Leno Logo" />
             </div>
 
-            <!-- Mobile Menu & Hamburger Icon -->
+            <nav class="navbar__menu">
+                <ul class="navbar__menu-list">
+                    <li><a href="index.html" class="navbar__menu-link">Home</a></li>
+                    <li><a href="#features" class="navbar__menu-link">Features</a></li>
+                    <li><a href="#preview" class="navbar__menu-link">Preview</a></li>
+                    <li><a href="#details" class="navbar__menu-link">Details</a></li>
+                    <li><a href="#download" class="navbar__menu-link">Download</a></li>
+                    <li><a href="#" class="navbar__menu-link--primary"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#" class="navbar__menu-link--primary"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </nav>
+
             <div class="navbar__mobile-menu">
                 <div class="navbar__mobile-menu-toggle">
                     <i class="fas fa-bars fa-2x"></i>
                 </div>
-                <!-- Mobile Menu Items -->
+
                 <div class="navbar__mobile-menu-items">
                     <ul class="navbar__mobile-menu-list">
-                        <li class="navbar__mobile-menu-item">
-                            <a href="index.html" class="navbar__mobile-menu-link">Home</a>
-                        </li>
-                        <li class="navbar__mobile-menu-item">
-                            <a href="index.html#features" class="navbar__mobile-menu-link">Features</a>
-                        </li>
-                        <li class="navbar__mobile-menu-item">
-                            <a href="index.html#preview" class="navbar__mobile-menu-link">Preview</a>
-                        </li>
-                        <li class="navbar__mobile-menu-item">
-                            <a href="index.html#details" class="navbar__mobile-menu-link">Details</a>
-                        </li>
-                        <li class="navbar__mobile-menu-item">
-                            <a href="index.html#download" class="navbar__mobile-menu-link">Download</a>
-                        </li>
-                        <li class="navbar__mobile-menu-item">
-                            <a href="#" class="navbar__mobile-menu-link--primary">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="navbar__mobile-menu-item">
-                            <a href="#" class="navbar__mobile-menu-link--primary">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </li>
+                        <li><a href="index.html" class="navbar__mobile-menu-link">Home</a></li>
+                        <li><a href="#features" class="navbar__mobile-menu-link">Features</a></li>
+                        <li><a href="#preview" class="navbar__mobile-menu-link">Preview</a></li>
+                        <li><a href="#details" class="navbar__mobile-menu-link">Details</a></li>
+                        <li><a href="#download" class="navbar__mobile-menu-link">Download</a></li>
+                        <li><a href="#" class="navbar__mobile-menu-link--primary"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#" class="navbar__mobile-menu-link--primary"><i class="fa-brands fa-twitter"></i></a></li>
                     </ul>
                 </div>
             </div>
+
         </div>
     </navbar>
 
-    <!-- Inner Header -->
-    <header class="inner-header">
-        <div class="inner-header__container container">
-            <h1 class="inner-header__title">Details</h1>
+    <header class="hero">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Your <span class="hero__title--primary">productivity</span> assistant
+                </h1>
+
+                <p class="hero__description">
+                    Boost your productivity and improve your health with Leno.
+                </p>
+
+                <div class="hero__buttons">
+                    <a href="#download" class="hero__button btn"><i class="fa-brands fa-apple"></i> For Apple</a>
+                    <a href="#download" class="hero__button btn"><i class="fa-brands fa-android"></i> For Android</a>
+                </div>
+            </div>
+
+            <div class="hero__image">
+                <img src="./images/header-smartphones.png" alt="Leno App" />
+            </div>
         </div>
     </header>
 
-    <!-- Pricing -->
-    <section class="pricing">
-        <div class="pricing__container container">
-            <h2 class="pricing__title">Pricing Options</h2>
-            <div class="pricing__cards">
-                <!-- Card 1 -->
-                <div class="pricing__card">
-                    <div class="pricing__card-box">
-                        <h4 class="pricing__card-title">Standard</h4>
-                        <h3 class="pricing__card-price">Free</h3>
-                        <div class="pricing__card-body">
-                            <ul class="pricing__card-list">
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i> Unlimited access to all
-                                    features
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    24/7 Customer Support
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    1GB Storage
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    Cancel Anytime
-                                </li>
-                            </ul>
+    <section class="testimonials" id="testimonials">
+        <div class="testimonials__container container">
+
+            <article class="testimonials__card">
+                <img src="./images/testimonial-1.jpg" alt="Samantha" class="testimonials__image" />
+                <div class="testimonials__card--content">
+                    <p>"Leno has transformed how I manage my time and health!"</p>
+                    <h3>Samantha Samson</h3>
+                </div>
+            </article>
+
+            <article class="testimonials__card">
+                <img src="./images/testimonial-2.jpg" alt="Mike Johnson" class="testimonials__image" />
+                <div class="testimonials__card--content">
+                    <p>"I rely on Leno every day. It's a game-changer!"</p>
+                    <h3>Mike Johnson</h3>
+                </div>
+            </article>
+
+            <article class="testimonials__card">
+                <img src="./images/testimonial-3.jpg" alt="Laney Smith" class="testimonials__image" />
+                <div class="testimonials__card--content">
+                    <p>"Achieved my goals faster and healthier than ever."</p>
+                    <h3>Laney Smith</h3>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="features__container container">
+
+            <header class="features__content">
+                <h2 class="features__title">Key Takeaways</h2>
+                <p class="features__description">
+                    Discover the powerful features that make Leno your ideal companion.
+                </p>
+            </header>
+
+            <div class="features__grid">
+
+                <div class="features__grid-column features__grid-column-left">
+                    <div class="features__grid-item">
+                        <div>
+                            <h4>Real-Time Data</h4>
+                            <p>Instant access to the latest updates.</p>
                         </div>
+                        <i class="fas fa-rocket fa-4x"></i>
                     </div>
-                    <a href="#" class="pricing__card-button btn">Get Started</a>
+
+                    <div class="features__grid-item">
+                        <div>
+                            <h4>Visual Editor</h4>
+                            <p>Customize your workspace.</p>
+                        </div>
+                        <i class="fas fa-code fa-4x"></i>
+                    </div>
+
+                    <div class="features__grid-item">
+                        <div>
+                            <h4>Refined Options</h4>
+                            <p>Fine-tuned controls for your needs.</p>
+                        </div>
+                        <i class="fas fa-gem fa-4x"></i>
+                    </div>
                 </div>
 
-                <!-- Card 2 -->
-                <div class="pricing__card">
-                    <div class="pricing__card-box">
-                        <h4 class="pricing__card-title">Advanced</h4>
-                        <h3 class="pricing__card-price">$19</h3>
-                        <div class="pricing__card-body">
-                            <ul class="pricing__card-list">
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i> Unlimited access to all
-                                    features
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    24/7 Customer Support
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    5GB Storage
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    Cancel Anytime
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <a href="#" class="pricing__card-button btn">Get Started</a>
+                <div class="features__grid-column features__grid-column-center">
+                    <img src="./images/features-smartphone-1.png" alt="Feature Phone" />
                 </div>
 
-                <!-- Card 3 -->
-                <div class="pricing__card">
-                    <div class="pricing__card-box">
-                        <h4 class="pricing__card-title">Complete</h4>
-                        <h3 class="pricing__card-price">$29</h3>
-                        <div class="pricing__card-body">
-                            <ul class="pricing__card-list">
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i> Unlimited access to all
-                                    features
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    24/7 Customer Support
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    10GB Storage
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    Cancel Anytime
-                                </li>
-                            </ul>
+                <div class="features__grid-column features__grid-column-right">
+                    <div class="features__grid-item">
+                        <div>
+                            <h4>Calendar Input</h4>
+                            <p>Integrate your schedule seamlessly.</p>
                         </div>
+                        <i class="fas fa-calendar fa-4x"></i>
                     </div>
-                    <a href="#" class="pricing__card-button btn">Get Started</a>
+
+                    <div class="features__grid-item">
+                        <div>
+                            <h4>Easy Reading</h4>
+                            <p>Clean and distraction-free UI.</p>
+                        </div>
+                        <i class="fas fa-book fa-4x"></i>
+                    </div>
+
+                    <div class="features__grid-item">
+                        <div>
+                            <h4>Good Foundation</h4>
+                            <p>Built with user feedback & modern tech.</p>
+                        </div>
+                        <i class="fas fa-cube fa-4x"></i>
+                    </div>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Pricing Notes -->
-    <section class="pricing-notes">
-        <div class="pricing-notes__container container">
-            <p class="pricing-notes__text">
-                * Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-                temporibus!
-            </p>
-            <p class="pricing-notes__text">
-                * Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-                temporibus Lorem ipsum dolor sit amet.
-            </p>
-            <p class="pricing-notes__text">
-                * Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                quibusdam rem magnam, mollitia autem tempora.
-            </p>
+    <section class="preview" id="preview">
+        <div class="preview__container container">
+            <header class="preview__content">
+                <h2 class="preview__title">Preview</h2>
+                <p class="preview__description">Take a sneak peek at Leno's interface.</p>
+            </header>
+
+            <div class="preview__image-container">
+                <div class="preview__video-wrapper">
+                    <img src="./images/video-frame.jpg" alt="Preview Frame" />
+                    <button class="preview__video-button">
+                        <span class="preview__video-play-button"><span></span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" id="videoModal">
+            <div class="modal__content">
+                <span class="modal__close-button">&times;</span>
+                <iframe id="videoPlayer" width="560" height="315" allowfullscreen></iframe>
+            </div>
         </div>
     </section>
 
-    <!-- Details Features -->
-    <section class="details-features">
-        <div class="details-features__container container">
-            <h2 class="details-features__title">Features</h2>
-            <div class="details-features__list">
-                <!-- Item 1 -->
-                <div class="details-features__list-item">
-                    <i class="fas fa-rocket fa-4x"></i>
-                    <div class="details-features__list-text">
-                        <h3 class="details-features__list-title">Real-Time Data</h3>
-                        <p class="details-features__list-description">
-                            Access real-time data instantly, ensuring you're always
-                            up-to-date with the latest information. Whether it's market
-                            trends, user activity, or system performance metrics, stay
-                            informed with our real-time data solutions.
-                        </p>
-                    </div>
+    <section class="details" id="details">
+        <div class="details__container container">
+            <div class="details__grid">
+
+                <div class="details__grid-image">
+                    <img src="./images/details-1.png" alt="Goals" />
                 </div>
 
-                <!-- Item 2 -->
-                <div class="details-features__list-item">
-                    <i class="fas fa-user fa-4x"></i>
-                    <div class="details-features__list-text">
-                        <h3 class="details-features__list-title">Simple Integration</h3>
-                        <p class="details-features__list-description">
-                            Integrate our solutions seamlessly into your existing workflow
-                            with minimal effort. Our easy-to-use APIs and intuitive
-                            documentation make integration a breeze, allowing you to focus
-                            on what matters most - delivering value to your users.
-                        </p>
-                    </div>
+                <div class="details__grid-content">
+                    <h3>Start using Leno today and set your long term goals</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="details.html" class="btn">More</a>
                 </div>
 
-                <!-- Item 3 -->
-                <div class="details-features__list-item">
+                <div class="details__grid-content">
+                    <h3>The calendar feature helps you schedule tasks</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="details.html" class="btn">More</a>
+                </div>
+
+                <div class="details__grid-image">
+                    <img src="./images/details-2.png" alt="Calendar" />
+                </div>
+
+            </div>
+
+            <div class="details__icons">
+                <div class="details__icons-item">
+                    <i class="fas fa-users fa-4x"></i>
+                    <div>55,000</div>
+                    <h4>Happy Customers</h4>
+                </div>
+
+                <div class="details__icons-item">
                     <i class="fas fa-code fa-4x"></i>
-                    <div class="details-features__list-text">
-                        <h3 class="details-features__list-title">Easy To Use</h3>
-                        <p class="details-features__list-description">
-                            Experience unparalleled ease of use with our user-friendly
-                            interface and intuitive features. From beginners to experts, our
-                            platform is designed to cater to all skill levels, ensuring a
-                            smooth and hassle-free experience for everyone.
-                        </p>
-                    </div>
+                    <div>585</div>
+                    <h4>Issues Solved</h4>
                 </div>
 
-                <!-- Item 4 -->
-                <div class="details-features__list-item">
-                    <i class="fas fa-compass fa-4x"></i>
-                    <div class="details-features__list-text">
-                        <h3 class="details-features__list-title">High Accuracy</h3>
-                        <p class="details-features__list-description">
-                            Rely on our high-precision algorithms and robust data processing
-                            techniques to deliver accurate insights every time. With our
-                            advanced technology and rigorous validation processes, you can
-                            trust that your data is always reliable and precise.
-                        </p>
-                    </div>
+                <div class="details__icons-item">
+                    <i class="fas fa-comments fa-4x"></i>
+                    <div>788</div>
+                    <h4>Good Reviews</h4>
                 </div>
 
-                <!-- Item 5 -->
-                <div class="details-features__list-item">
-                    <i class="fas fa-chart-pie fa-4x"></i>
-                    <div class="details-features__list-text">
-                        <h3 class="details-features__list-title">Reporting Tools</h3>
-                        <p class="details-features__list-description">
-                            Empower your team with powerful reporting tools that provide
-                            actionable insights and in-depth analysis. From customizable
-                            dashboards to comprehensive reports, our reporting tools make it
-                            easy to track performance, identify trends, and make informed
-                            decisions.
-                        </p>
-                    </div>
+                <div class="details__icons-item">
+                    <i class="fas fa-rocket fa-4x"></i>
+                    <div>100</div>
+                    <h4>Case Studies</h4>
+                </div>
+
+                <div class="details__icons-item">
+                    <i class="fas fa-edit fa-4x"></i>
+                    <div>110</div>
+                    <h4>Press Article</h4>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <section class="screenshots" id="screenshots">
+        <div class="screenshots__container container">
+            <h2 class="screenshots__title">Screenshots</h2>
+
+            <div class="screenshots__images">
+                <img src="./images/screenshot-1.png" alt="Screenshot 1" />
+                <img src="./images/screenshot-2.png" alt="Screenshot 2" />
+                <img src="./images/screenshot-3.png" alt="Screenshot 3" />
+                <img src="./images/screenshot-4.png" alt="Screenshot 4" />
+                <img src="./images/screenshot-5.png" alt="Screenshot 5" />
+            </div>
+        </div>
+    </section>
+
+    <section class="download" id="download">
+        <div class="download__container container">
+
+            <div class="download__content">
+                <p>
+                    Download Leno today to enjoy faster results than any other app.
+                </p>
+
+                <div class="download__buttons">
+                    <a href="details.html" class="btn"><i class="fa-brands fa-apple"></i> For Apple</a>
+                    <a href="details.html" class="btn"><i class="fa-brands fa-android"></i> For Android</a>
+                </div>
+            </div>
+
+            <div class="download__image">
+                <img src="./images/download.png" alt="Download App" />
+            </div>
+
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="footer__container container">
+
             <div class="footer__about">
-                <h4 class="footer__title">About Leno</h4>
-                <p class="footer__description">
-                    Leno is a mobile app that helps you stay focused and improve your
-                    productivity. The app provides you with tools to set goals, track
-                    your progress, and maintain a healthy work-life balance.
+                <h4>About Leno</h4>
+                <p>
+                    Leno helps you stay focused, set goals, track progress, and maintain work-life balance.
                 </p>
             </div>
 
             <div class="footer__links">
-                <h4 class="footer__title">Quick Links</h4>
-                <ul class="footer__links-list">
-                    <li class="footer__links-item">
-                        <a href="index.html" class="footer__links-link"> Home </a>
-                    </li>
-                    <li class="footer__links-item">
-                        <a href="index.html#testimonials" class="footer__links-link">
-                            Testimonials
-                        </a>
-                    </li>
-                    <li class="footer__links-item">
-                        <a href="index.html#features" class="footer__links-link">
-                            Features
-                        </a>
-                    </li>
-                    <li class="footer__links-item">
-                        <a href="index.html#preview" class="footer__links-link">
-                            Preview
-                        </a>
-                    </li>
-                    <li class="footer__links-item">
-                        <a href="index.html#details" class="footer__links-link">
-                            Details
-                        </a>
-                    </li>
-                    <li class="footer__links-item">
-                        <a href="index.html#download" class="footer__links-link">
-                            Download
-                        </a>
-                    </li>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#preview">Preview</a></li>
+                    <li><a href="#details">Details</a></li>
+                    <li><a href="#download">Download</a></li>
                 </ul>
             </div>
 
             <div class="footer__social">
-                <a href="#" class="footer__social-link">
-                    <i class="fa-brands fa-facebook fa-3x"></i>
-                </a>
-                <a href="#" class="footer__social-link">
-                    <i class="fa-brands fa-twitter fa-3x"></i>
-                </a>
-                <a href="#" class="footer__social-link">
-                    <i class="fa-brands fa-instagram fa-3x"></i>
-                </a>
-                <a href="#" class="footer__social-link">
-                    <i class="fa-brands fa-linkedin fa-3x"></i>
-                </a>
+                <a href="#"><i class="fa-brands fa-facebook fa-3x"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-3x"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-3x"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin fa-3x"></i></a>
             </div>
+
         </div>
     </footer>
 
